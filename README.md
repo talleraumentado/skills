@@ -36,11 +36,19 @@ Claude las usa por su cuenta cuando la tarea lo amerita. También se pueden llam
 
 ## Cómo actualizarlas
 
+Las actualizaciones no llegan solas. Para actualizar a mano, en la terminal del sistema (no en el chat de Claude Code), se refresca el catálogo y luego se actualiza cada skill instalada (aquí, `ortografia`):
+
 ```text
-/plugin marketplace update taller-aumentado
+claude plugin marketplace update taller-aumentado
 ```
 
-Para recibir las actualizaciones de forma automática: `/plugin` → **Marketplaces** → `taller-aumentado` → **Enable auto-update**.
+```text
+claude plugin update ortografia@taller-aumentado
+```
+
+La versión nueva se aplica al abrir Claude Code de nuevo.
+
+Para recibirlas de forma automática: `/plugin` → **Marketplaces** → `taller-aumentado` → **Enable auto-update**.
 
 ## Skills de pago y a la medida
 
