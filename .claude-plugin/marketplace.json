@@ -1,0 +1,25 @@
+{
+  "name": "taller-aumentado",
+  "description": "Skills de Claude Code en español, de Taller Aumentado",
+  "owner": {
+    "name": "Taller Aumentado",
+    "email": "talleraumentado593@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "ortografia",
+      "source": "./plugins/ortografia",
+      "description": "Revisión ortográfica y tipográfica en español, según la RAE"
+    },
+    {
+      "name": "gramatica",
+      "source": "./plugins/gramatica",
+      "description": "Revisión gramatical en español, párrafo por párrafo"
+    },
+    {
+      "name": "critica",
+      "source": "./plugins/critica",
+      "description": "Objetividad y control de calidad antes de entregar un trabajo"
+    }
+  ]
+}
