@@ -15,7 +15,7 @@ Skills de Claude Code en español, de **Taller Aumentado** (Profe Rómmel). Las 
 Se necesita [Claude Code](https://code.claude.com/docs/en/quickstart.md) y [Git](https://git-scm.com/downloads). Dentro de una sesión de Claude Code, se registra primero el catálogo:
 
 ```text
-/plugin marketplace add CUENTA/skills
+/plugin marketplace add talleraumentado/skills
 ```
 
 Luego se instala cada skill que se necesite:
